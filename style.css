@@ -1,0 +1,78 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+img{
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+h3{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Fraunces', serif;
+}
+span{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+button{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 200px;
+}
+.para{
+    color: gray;
+}
+.container{
+    display: flex;
+    min-height: 680px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+.content{
+    padding: 20px;
+}
+.price{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: darkgreen;
+}
+@media screen and (max-width: 375px) {
+    img{
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 5%;
+
+    }
+    .container{
+        width: 90%;
+        margin: auto auto;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        width: 100%;
+    }
+    
+  }
